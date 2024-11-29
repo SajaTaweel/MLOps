@@ -23,7 +23,7 @@ predictor = SalaryPredictor()
 
 # Load data, preprocess, and train the model
 predictor.load_data(
-    "C:/Users/Laptop/Documents/AI&data science/extra courses/Improved/MLOps/Task2/DataScience_salaries_2024.csv")
+    "DataScience_salaries_2024.csv")
 predictor.preprocess_data()
 predictor.train()
 
