@@ -66,8 +66,7 @@ After running the ETL pipeline and loading the data into PostgreSQL, you can run
     ```sql
     \dt
 
-3. **Verify Data in Tables**: To verify that data has been loaded into each table, you can run the following queries:
-Verify data in the dim_customer table by running:
+3. **Verify Data in Tables**: To verify that data has been loaded into each table, you can run the following querie:
 
     ```sql
     SELECT * FROM dim_customer LIMIT 5;
