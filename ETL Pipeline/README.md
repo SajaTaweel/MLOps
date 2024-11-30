@@ -13,7 +13,7 @@ This project is an ETL pipeline designed to process a shopping dataset. The pipe
 
 The shopping dataset is divided into **fact** and **dimension** tables, following best practices for data warehousing. Here is the conceptual model:
 
-![Fact and Dimension Tables](ETL Pipeline/model.png)
+![Fact and Dimension Tables](https://github.com/SajaTaweel/MLOps/blob/aef46dea110cfc4e8d80e1df12fad1bb3c3a244e/ETL%20Pipeline/model.png)
 
 - **Fact Table**: The fact table contains the transactional data and is typically designed to store numerical measures. The fact table often includes foreign keys that reference dimension tables.
   
