@@ -9,6 +9,20 @@ This project is an ETL pipeline designed to process a shopping dataset. The pipe
 - **ETL Pipeline**: Implemented the ETL process with data cleaning, transformation, and loading to a PostgreSQL database.
 - **PostgreSQL Integration**: Data is loaded into a PostgreSQL database for analytics.
 
+### Fact and Dimension Tables Model
+
+The shopping dataset is divided into **fact** and **dimension** tables, following best practices for data warehousing. Here is the conceptual model:
+
+![Fact and Dimension Tables](path_to_your_image/fact_dimension_model.png)
+
+- **Fact Table**: The fact table contains the transactional data and is typically designed to store numerical measures. The fact table often includes foreign keys that reference dimension tables.
+  
+- **Dimension Tables**: Dimension tables provide descriptive attributes related to the facts. They help in filtering, grouping, and analyzing the fact data. Common dimension tables in this project include:
+  - **dim_customer**: Contains information about the customer.
+  - **dim_location**: Contains details about the location.
+  - **dim_payment_method**: Contains information on the payment methods used.
+  - **dim_product**: Contains product details.
+
 ## Getting Started
 
 ### Prerequisites
