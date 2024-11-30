@@ -36,6 +36,7 @@ This project is an ETL pipeline designed to process a shopping dataset. The pipe
 5. Run the pipeline:
     ```bash
     python src/etl/main.py
+    ```
  
 
 
