@@ -1,0 +1,11 @@
+database:
+    username: 'postgres'
+    password: 'manager'
+    host: 'localhost'
+    port: '5432'
+    database: 'shopping_data'
+
+dataset: "shopping_trends.csv"
+
+
+
