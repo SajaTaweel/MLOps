@@ -51,6 +51,27 @@ The shopping dataset is divided into **fact** and **dimension** tables, followin
     ```bash
     python src/etl/main.py
     ```
+    
+## Verifying Data Loaded Correctly to PostgreSQL
+
+After running the ETL pipeline and loading the data into PostgreSQL, you can run the following queries to check if the data has been loaded correctly.
+
+1. **Connect to PostgreSQL**: Open PostgreSQL and connect to the `shopping_data` database by running the following command:
+
+   ```bash
+   \c shopping_data
+
+2. **Check if Tables Exist**: To list all the tables in the shopping_data database, run:
+
+    ```sql
+    \dt
+
+3. **Verify Data in Tables**: To verify that data has been loaded into each table, you can run the following queries:
+Verify data in the dim_customer table by running:
+
+    ```sql
+    SELECT * FROM dim_customer LIMIT 5;
+    ```
  
 
 
