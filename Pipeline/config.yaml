@@ -1,0 +1,25 @@
+dataset: "data/DataScience_salaries_2024.csv"
+
+categorical_cols:
+  - "experience_level"
+  - "employment_type"
+  - "job_title"
+  - "salary_currency"
+  - "employee_residence"
+  - "company_location"
+  - "company_size"
+
+model_split:
+  test_size: 0.2
+  random_state: 42
+
+lightgbm:
+  random_state: 42
+  jobs: -1
+  estimators: 1000
+
+
+
+
+
+
