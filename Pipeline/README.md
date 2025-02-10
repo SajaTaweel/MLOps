@@ -1,4 +1,3 @@
-```markdown
 # FastAPI Salary Prediction Model
 
 This project contains a machine learning pipeline for predicting salaries using a FastAPI app. It includes data extraction, feature engineering, model training, and deployment.
